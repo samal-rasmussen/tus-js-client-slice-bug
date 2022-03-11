@@ -9,7 +9,7 @@ const uri = Image.resolveAssetSource(mov).uri
 async function upload() {
   var upload = new Upload({uri} as any, {
     endpoint: "http://" + host + ":1080/files/",
-    chunkSize: 1024*1024,
+    chunkSize: 1024*254,
     onError: function(error) {
         console.log("Failed because: " + error)
     },
