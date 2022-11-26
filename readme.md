@@ -15,6 +15,6 @@ This repo contains an Expo app and a server implementation.
 
 * Run `node server.js`
 
-Fix
+## Fix
 
 The bug fix is implemented in the fix branch
